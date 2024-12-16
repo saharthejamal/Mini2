@@ -1,0 +1,3 @@
+Home,true
+Gas Station,true
+School,false

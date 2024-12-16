@@ -7,8 +7,19 @@ public class Vehicle {
         this.currentLocation = "Home";
     }
 
-    public int getFuel() { return fuel; }
-    public void setFuel(int fuel) { this.fuel = fuel; }
-    public String getCurrentLocation() { return currentLocation; }
-    public void setCurrentLocation(String location) { this.currentLocation = location; }
+    public int getFuel() {
+        return fuel;
+    }
+
+    public void setFuel(int fuel) {
+        this.fuel = fuel;
+    }
+
+    public String getCurrentLocation() {
+        return currentLocation;
+    }
+
+    public void setCurrentLocation(String location) {
+        this.currentLocation = location;
+    }
 }

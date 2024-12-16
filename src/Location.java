@@ -1,12 +1,17 @@
 public class Location {
     private String name;
-    private boolean fuel;
+    private boolean hasFuel;
 
-    public Location(String name, boolean fuel) {
+    public Location(String name, boolean hasFuel) {
         this.name = name;
-        this.fuel = fuel;
+        this.hasFuel = hasFuel;
     }
 
-    public String getName() { return name; }
-    public boolean hasFuel() { return fuel; }
+    public String getName() {
+        return name;
+    }
+
+    public boolean hasFuel() {
+        return hasFuel;
+    }
 }
